@@ -1,0 +1,19 @@
+import { Container } from '@mui/material';
+import './App.css'
+import MainContent from './Components/MainContent';
+
+
+function App () {
+  
+  return (
+    <>
+      <div style={{display:'flex', justifyContent:'center', width:'100vw'}}  className='container'>
+        <Container maxWidth='xl'>
+          <MainContent />
+        </Container>
+      </div>
+    </>
+  );
+}
+
+export default App
